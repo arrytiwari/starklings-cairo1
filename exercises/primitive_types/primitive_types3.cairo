@@ -2,13 +2,19 @@
 // Destructure the `cat` tuple to call print on each member.
 // Execute `starklings hint primitive_types3` or use the `hint` watch subcommand for a hint.
 
-// I AM NOT DONE
+
 
 use debug::PrintTrait;
 
 fn main() {
     let cat = ('Furry McFurson', 3);
-    let // your pattern here = cat;
+    let (name,age)=cat;
+    // your pattern here = cat;
+    if(name=='Furry McFurson')
+    {
     name.print();
+    }
+    if (age==3){
     age.print();
+    }
 }
