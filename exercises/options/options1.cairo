@@ -39,3 +39,4 @@ fn raw_value() {
     let icecreams = maybe_icecream(12);
     assert(icecreams.unwrap() == 5, 'err_6');
 }
+
